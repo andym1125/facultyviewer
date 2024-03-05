@@ -1,7 +1,10 @@
 import logo from './logo.svg';
+import { scrapeProfessor } from './scraper.mjs';
 import './App.css';
 
 function App() {
+  scrapeProfessor('jacob hochstetler')
+
   return (
     <div className="App">
       <header className="App-header">
